@@ -1,0 +1,231 @@
+@font-face {
+    font-family: tetris;
+    src: url("./assets/tetrisFont.ttf");
+}
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blue;
+}
+
+.navbar a:hover {
+    background-color: #124bbb;
+}
+
+
+
+a.button {
+    background-size: 100% 2px;
+    background: linear-gradient(-45deg, #f3ec78, #af4261) no-repeat bottom;
+    text-decoration: none;
+    display: flex;
+
+
+    font-size: 20px;
+    justify-content: center;
+    font-family: "Comic Sans MS";
+    width: 60%;
+    height: 8%;
+    color: black;
+    border-radius: 100px;
+}
+
+#registerForm {
+    display: flex;
+    flex-direction: column;
+}
+#register{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#buttonDiv{
+
+}
+
+#score{
+    width: 20%;
+    height: 150px;
+    transform: translate(240px,-450px);
+}
+#scoreText{
+    font-family: "Comic Sans MS";
+    font-size: 30px;
+}
+
+#scoreCount {
+    font-family: "Comic Sans MS";
+    font-size: 30px;
+}
+#finishScreen {
+    display: flex;
+    flex-direction: column;
+    font-family: "Comic Sans MS";
+}
+#over {
+    color: red;
+    font-size: 30px;
+}
+#overScore {
+    font-size: 25px;
+}
+.main {
+    display: flex;
+    width : 100%;
+    padding-top: 180px;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-image: url("./assets/tetris.png");
+    background-size: 95%;
+    background-position-x: center;
+    background-position-y: center;
+    justify-content: center;
+    align-content: center;
+}
+
+#login {
+    width: 28%;
+    height: 64%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+    margin-top: 15%;
+    background: #c7c7c7;
+    box-shadow: 0px 0px 5px 5px;
+
+}
+
+#tetris-bg {
+
+    position: absolute;
+
+
+    background-image: url("./assets/tetris-grid-bg.png");
+
+
+    width: 300px;
+
+    height: 600px;
+    padding-bottom: 10px;
+    background-repeat: no-repeat;
+
+}
+
+#scoreTable {
+    border-spacing: 2px;
+    font-family: "Comic Sans MS";
+    font-size: 25px;
+    box-shadow: 0px 0px 5px 5px;
+
+}
+#scoreTable th{
+    background: blue;
+    border: 1px solid black;
+}
+#scoreTable td {
+    border: 1px solid black;
+}
+
+#own {
+    background: mediumslateblue;
+}
+
+.row{
+    height: 5%;
+    width: 100%;
+    display: flex;
+}
+
+.column{
+    width: 10%;
+    height: 100%;
+}
+
+
+
+.navbar a {
+    display: block;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    font-size: 12px;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.left {
+    float : left;
+}
+
+.right {
+    float : right;
+}
+
+#startButton {
+    font-size: 20px;
+    font-family: "Comic Sans MS"    ;
+    width: 40%;
+    height: 8%;
+    color: black;
+    border-radius: 60px;
+}
+
+#startButton2 {
+    font-size: 20px;
+    font-family: "Comic Sans MS"    ;
+    width: 100%;
+    height: 8%;
+    color: black;
+    border-radius: 60px;
+}
+
+.tetrisBlock {
+
+    position: absolute;
+    width: 10%;
+    height: 5%;
+
+}
+#welcome {
+    font-family: tetris;
+    margin-bottom: 15px;
+    font-size: 35px;
+    background-color: #f3ec78;
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+.tetrisBlock.I {
+    background : yellow;
+}
+
+.tetrisBlock.O {
+    background: hotpink;
+}
+
+.tetrisBlock.L {
+    background: aqua;
+}
+
+.tetrisBlock.T {
+    background: brown;
+}
+
+.tetrisBlock.S {
+    background: black;
+}
+
+.tetrisBlock.Z {
+    background: mediumslateblue;
+}
