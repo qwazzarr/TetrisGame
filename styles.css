@@ -49,8 +49,8 @@ a.button {
 
 #score{
     width: 20%;
-    height: 150px;
-    transform: translate(240px,-450px);
+    height: 150px ;
+    transform: translate(15%,-400px);
 }
 #scoreText{
     font-family: "Comic Sans MS";
